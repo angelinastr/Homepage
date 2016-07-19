@@ -55,5 +55,21 @@ nav a:hover {
 }
 
 .footer {
-  height: 200px;
+  height: 20px;
+  padding: 10px;
+  padding-right: 50px;
+  float: right;
+  background-color: #fff;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 10pt;
+  font-weight: 100;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #000;
+}
+
+.footer a:hover {
+  color: #d00;
 }
