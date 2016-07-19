@@ -58,22 +58,21 @@ nav a:hover {
 }
 
 .box {
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-top: 30px;
+  margin: 30px;
   display: inline-block;
+  width: 270px;
+  height: 500px;
+}
+
+.box-bilder {
   width: 270px;
   height: 270px;
 }
 
 .box-text {
-  margin-top: 5px;
-  margin-left: 30px;
-  margin-right: 30px;
-  display: inline-block;
+  text-align: justify;
   width: 270px;
-  height: 100px;
-  background-color: black;
+  margin: 5px;
 }
 
 .portfolio img {
