@@ -1,0 +1,35 @@
+body {
+  width: 100%;
+  height: 1000px;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: green;
+}
+
+.logo {
+  width: 20%;
+  float: left;
+  background-color: blue;
+}
+
+.navigation {
+width: 60%;
+background-color: black;
+}
+
+.start {
+  height: 500px;
+  background-color: yellow;
+}
+
+.portfolio {
+
+}
+
+.footer {
+  height: 200px;
+  background-color: red;
+}
