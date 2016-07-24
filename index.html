@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title> AnathCemetery Fotografie </title>
-  <link href="css/stylesheet.css" rel="stylesheet" media="screen">
+  <link href="css/stylesheet.css" rel="stylesheet">
 </head>
 
 <body>
@@ -22,13 +22,9 @@
     </nav>
   </div>
 
-  <section class="row slideshow">
-    <div class="carousel" data-flickity='{ "imagesLoaded": true }'>
-       <div class="carousel-cell"> <img src="images/willkommen_1.jpg" alt="Willkommen-1"/> </div>
-       <div class="carousel-cell"> <img src="images/willkommen_2.jpg" alt="Willkommen-2"/> </div>
-       <div class="carousel-cell"> <img src="images/willkommen_3.jpg" alt="Willkommen-3"/> </div>
-    </div>
-  </section>
+  <div class="titelbild">
+    <img src="images/willkommen_1.jpg" alt="willkommen" />
+  </div>
 
   <div>
     <hr>
@@ -44,28 +40,36 @@
 
   <div class="portfolio">
     <div class="box">
-      <img src="images/fotografie.jpg" alt="fotografie"/>
+      <div class="box-bilder">
+        <img src="images/fotografie.jpg" alt="fotografie"/>
+      </div>
+      <div class="box-text">
+        Fotografie
+      </div>
     </div>
     <div class="box">
-      <img src="images/bildbearbeitung.jpg" alt="bildbearbeitung"/>
+      <div class="box-bilder">
+        <img src="images/bildbearbeitung.jpg" alt="bildbearbeitung"/>
+      </div>
+      <div class="box-text">
+        Bildbearbeitung
+      </div>
     </div>
     <div class="box">
-      <img src="images/design.jpg" alt="design"/>
+      <div class="box-bilder">
+        <img src="images/design.jpg" alt="design"/>
+      </div>
+      <div class="box-text">
+        Design
+      </div>
     </div>
     <div class="box">
-      <img src="images/makeup.jpg" alt="makeup" />
-    </div>
-    <div class="box-text">
-      Fotografie
-    </div>
-    <div class="box-text">
-      Bildbearbeitung
-    </div>
-    <div class="box-text">
-      Design
-    </div>
-    <div class="box-text">
-      MakeUp
+      <div class="box-bilder">
+        <img src="images/makeup.jpg" alt="makeup"/>
+      </div>
+      <div class="box-text">
+        MakeUp
+      </div>
     </div>
   </div>
 
