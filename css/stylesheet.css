@@ -82,23 +82,11 @@ p {
 
 .box {
   width: 270px;
+  height: 270px;
   margin: 30px;
   display: inline-block;
+  margin-bottom: 60px;
   }
-
-.box-bilder {
-  width: 270px;
-  height: 270px;
-}
-
-.box-text {
-  margin: 5px;
-  padding-top: 20px;
-  display: inline-block;
-  width: 270px;
-  height: 70px;
-  font-size: 12pt;
-}
 
 .footer {
   position: fixed;
