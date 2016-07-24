@@ -50,8 +50,12 @@ nav a:hover {
     color: #d00;
   }
 
-.titelbild img {
+.titelbild img{
   margin-top:80px;
+}
+
+.ueberschrift {
+  padding-top:80px;
 }
 
 hr {
