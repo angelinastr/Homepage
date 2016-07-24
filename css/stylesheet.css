@@ -1,11 +1,5 @@
 body {
   margin: 0;
-  padding: 0;
-}
-
-img {
-  width: 100%;
-  height: auto;
 }
 
 .header {
@@ -22,7 +16,7 @@ img {
 }
 
 .navigation {
-width: 35%;
+width: 30%;
 padding: 3px;
 float: right;
 }
@@ -50,46 +44,9 @@ nav a:hover {
     color: #d00;
   }
 
-.row {
-  display: inline-block;
+.start img {
+  margin-top:80px;
   width: 100%;
-  padding: 1em;
-}
-
-.slideshow {
-  display: inline-block;
-  width: 100%;
-}
-
-.slideshow img {
-  display: block;
-  width: 100%;
-}
-
-.carousel-cell {
-  width: 100%;
-}
-
-
-hr {
-  width: 100px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-h1 {
-  font-family: "Century Gothic", sans-serif;
-  font-size: 25pt;
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-p {
-  font-family: "Century Gothic", sans-serif;
-  font-size: 12pt;
-  text-align: justify;
-  margin-left: 20%;
-  margin-right: 20%;
 }
 
 .portfolio {
@@ -140,9 +97,5 @@ p {
 }
 
 .footer a:hover {
-  color: #d00;
-}
-
-.farbe {
   color: #d00;
 }
