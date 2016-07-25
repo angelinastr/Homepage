@@ -18,6 +18,7 @@ img {
   position: fixed;
   background-color: #fff;
   border-bottom: 1px solid #ddd;
+  z-index: 1;
 }
 
 .logo {
@@ -96,7 +97,7 @@ p {
   margin-right: 20%;
 }
 
-/* Raumverteilung unter Titelbild für vers. Seiten */
+/* Raumverteilung Allgemein*/
 .portfolio {
   margin-top: 40px;
   margin-bottom: 100px;
@@ -109,12 +110,6 @@ p {
   width: 270px;
   height: 270px;
   margin: 30px;
-  display: inline-block;
-  }
-
-/* Raumverteilung 'Portfolio' */
-.box-galerie {
-  margin: 15px;
   display: inline-block;
   }
 
@@ -131,6 +126,42 @@ p {
   text-align: left;
   margin-left: 5%;
   margin-right: 5%;
+}
+
+/* Galerie */
+.galerie {
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 10%;
+}
+
+.galerie li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+}
+
+.galerie img {
+  display: block;
+  padding: 3px;
+}
+
+.galerie a .vergroessert {
+  display: none;
+}
+
+.galerie a:hover .vergroessert {
+  height: 150%;
+  width: 150%;
+  display: block;
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  z-index: 2;
+  background: #fff;
 }
 
 /* Kontaktformular */
