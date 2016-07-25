@@ -102,6 +102,19 @@ p {
   display: inline-block;
   }
 
+.box-referenzen {
+  display: inline-block;
+  width: 30%;
+  margin: 10px;
+}
+
+.text-referenzen {
+  font-size: 12pt;
+  text-align: justify;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 .footer {
   position: fixed;
   bottom: 0;
