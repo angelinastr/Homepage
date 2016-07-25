@@ -97,6 +97,11 @@ p {
   margin-right: 20%;
 }
 
+.red {
+  color: #d00;
+  z-index: 3;
+}
+
 /* Raumverteilung Allgemein*/
 .portfolio {
   margin-top: 40px;
@@ -132,7 +137,7 @@ p {
 .galerie {
   text-align: center;
   display: inline-block;
-  margin-bottom: 10%;
+  margin-bottom: 7%;
 }
 
 .galerie li {
@@ -173,19 +178,19 @@ input#vname,
 input#nname,
 input#email,
 input#webside {
-  margin-right: 58.9%;
   height: 40px;
-  width: 100%;
+  width: 450px;
   margin-top: 12px;
+  margin-left: 5px;
   padding-left: 10px;
   font-family: "Century Gothic", sans-serif;
   font-size: 12pt;
 }
 
 textarea#nachricht {
-  margin-right: 78.2%;
-  width: 100%;
+  width: 918px;
   margin-top: 12px;
+  margin-left: 5px;
   margin-bottom: 12px;
   padding-left: 10px;
   font-family: "Century Gothic", sans-serif;
