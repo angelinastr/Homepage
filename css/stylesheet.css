@@ -1,3 +1,4 @@
+/* Allgemeines */
 body {
   margin: 0;
   font-family: "Century Gothic", sans-serif;
@@ -9,6 +10,7 @@ img {
   height: auto;
 }
 
+/* Kopfbereich */
 .header {
   width: 100%;
   height: 60px;
@@ -23,6 +25,7 @@ img {
   display: inline-block;
 }
 
+/* Kopfbereich 'Navigation' */
 .navigation {
 width: 38%;
 padding: 3px;
@@ -50,10 +53,13 @@ nav a:hover {
     color: #d00;
   }
 
+/* Titelbild */
 .titelbild img{
   margin-top:80px;
 }
 
+
+/* Textelemente */
 hr {
   width: 100px;
   margin-top: 50px;
@@ -90,6 +96,7 @@ p {
   margin-right: 20%;
 }
 
+/* Raumverteilung unter Titelbild für vers. Seiten */
 .portfolio {
   margin-top: 40px;
   margin-bottom: 100px;
@@ -97,6 +104,7 @@ p {
   font-size: 14pt;
 }
 
+/* Raumverteilung 'Index' */
 .box {
   width: 270px;
   height: 270px;
@@ -104,11 +112,13 @@ p {
   display: inline-block;
   }
 
+/* Raumverteilung 'Portfolio' */
 .box-galerie {
   margin: 15px;
   display: inline-block;
   }
 
+/* Raumverteilung 'Referenzen' */
 .box-referenzen {
   display: inline-block;
   width: 30%;
@@ -123,6 +133,7 @@ p {
   margin-right: 5%;
 }
 
+/* Kontaktformular */
 .formular {
   display: inline-block;
 }
@@ -150,6 +161,7 @@ textarea#nachricht {
   font-size: 12pt;
 }
 
+/* Fußbereich */
 .footer {
   position: fixed;
   bottom: 0;
