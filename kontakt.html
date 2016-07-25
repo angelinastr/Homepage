@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title> AnathCemetery Fotografie </title>
   <link href="css/stylesheet.css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 </head>
 
 <body>
@@ -29,33 +30,32 @@
   <div>
     <hr>
     <h1> Kontakt </h1>
-    <p> Willkommen auf meiner Seite! Mein Name ist Angelina Ströse und ich bin eine
-      Hobby-Fotografin vom Rande Berlins und fotografiere unter dem Namen "AnathCemetery
-      Fotografie" kreativ inszenierte Bilder. Neben dem reinen Fotografieren beschäftige
-      ich mich ausführlich mit digitaler Bildbearbeitung, der Herstellung von Kostümen und
-      der Kreation ausgefallener Make Ups. Meine Aufnahmebereiche bestehen aus kreativen Studio-Portraits und aufwendigen
-      Outdoor-Settings. Mein Ziel ist es Bilder zu erschaffen, die Geschichten erzählen. </p>
+    <p> Bei Interesse an einem Shooting oder anderen Fragen schreibt mir
+      gerne eine Mail über dieses Kontaktformular! Ich melde mich so schnell es geht zurück. </p>
     <hr>
   </div>
 
-  <div class="portfolio">
-      <div class="box">
-        <a href="uebermich.html"> <img src="images/uebermich.jpg" alt="fotografie" onmouseover=
-  "src='images/uebermich-2.jpg'" onmouseout="src='images/uebermich.jpg'"/> </a>
-      </div>
-      <div class="box">
-        <a href="portfolio.html"> <img src="images/portfolio.jpg" alt="bildbearbeitung" onmouseover=
-  "src='images/portfolio-2.jpg'" onmouseout="src='images/portfolio.jpg'"/> </a>
-      </div>
-      <div class="box">
-        <a href="referenzen.html"> <img src="images/referenzen.jpg" alt="design" onmouseover=
-  "src='images/referenzen-2.jpg'" onmouseout="src='images/referenzen.jpg'"/> </a>
-      </div>
-      <div class="box">
-        <a href="kontakt.html"> <img src="images/kontakt.jpg" alt="makeup" onmouseover=
-  "src='images/kontakt-2.jpg'" onmouseout="src='images/kontakt.jpg'"/> </a>
-      </div>
+  <form id="kontaktformular" name="kontaktformular" class="portfolio" action="">
+    <div>
+      <label for="absender"> Vorname </label>
+      <input type="text" id="vname" name="vname" />
     </div>
+    <div>
+      <label for="absender"> Nachname </label>
+      <input type="text" id="nname" name="nname" />
+    </div>
+    <div>
+      <label for="absender">E-Mail</label>
+      <input type="text" id="absender" name="absender" />
+    </div>
+    <div>
+      <label for="nachricht">Nachricht</label>
+      <textarea id="nachricht" name="nachricht" cols="20" rows="5"></textarea>
+    </div>
+    <div>
+      <input type="submit" value="Abschicken" />
+    </div>
+  </form>
 
   <div class="footer">
     <div class="footer-text">
